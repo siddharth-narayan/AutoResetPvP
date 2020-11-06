@@ -1,0 +1,7 @@
+name: AutoResetPvP
+main: io.github.siddharth_narayan.AutoResetPvP.AutoResetPvP
+version: 1.0
+commands:
+   reset:
+      description: Resets player's inventories to a specific loadout
+      usage: /reset [armorType] [sword<type>] [enchantArmor<enchantType>] [enchantSword<enchantType>]
