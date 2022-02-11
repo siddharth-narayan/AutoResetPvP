@@ -1,8 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/
-4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.siddharth-narayan</groupId>
-  <artifactId>AutoResetPvP</artifactId>
+  <artifactId>Manhunt</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
 
@@ -13,8 +12,8 @@
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
               <configuration>
-                  <source>1.7</source>
-                  <target>1.7</target>
+                  <source>1.15</source>
+                  <target>1.15</target>
               </configuration>
           </plugin>
       </plugins>
@@ -31,23 +30,23 @@
 
 
 
-   <dependencies>
-     <dependency>
+  <dependencies>
+   <!--<dependency>
        <groupId>org.bukkit</groupId>
        <artifactId>bukkit</artifactId>
-       <version>1.12.2-R0.1-SNAPSHOT</version><!--change this value depending on the version or use LATEST-->
+       <version>LATEST</version> change this value depending on the version or use LATEST
        <type>jar</type>
        <scope>provided</scope>
-     </dependency>
+     </dependency> -->
       
-     <dependency>
-       <groupId>org.spigotmc</groupId>
-       <artifactId>spigot-api</artifactId>
-       <version>1.12.2-R0.1-SNAPSHOT</version><!--change this value depending on the version-->
-       <type>jar</type>
-       <scope>provided</scope>
-     </dependency>
-   </dependencies>
+  <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.16.5-R0.1-SNAPSHOT</version>
+      <type>jar</type>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 
 
 

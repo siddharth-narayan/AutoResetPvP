@@ -1,7 +1,7 @@
-name: AutoResetPvP
-main: io.github.siddharth_narayan.AutoResetPvP.AutoResetPvP
+name: Manhunt
+main: io.github.siddharth_narayan.Manhunt.Manhunt
 version: 1.0
 commands:
-   reset:
-      description: Resets player's inventories to a specific loadout
-      usage: /reset [armorType] [sword<type>] [enchantArmor<enchantType>] [enchantSword<enchantType>]
+   manhunt:
+      description: Starts a game of Minecraft Manhunt
+      usage: /manhunt <players>
